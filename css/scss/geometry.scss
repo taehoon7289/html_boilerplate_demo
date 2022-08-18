@@ -1,0 +1,18 @@
+.equilateral-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: calc(180px * 1.732) solid #666666;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+
+}
+
+.right-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 360px solid #666666;
+  border-left: 0px solid transparent;
+  border-right: 240px solid transparent;
+
+
+}
