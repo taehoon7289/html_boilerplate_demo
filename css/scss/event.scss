@@ -1,0 +1,17 @@
+.draggable {
+  user-select: none;
+  cursor: grab;
+
+  &.dragging {
+    cursor: grabbing;
+
+  }
+}
+
+.dropzone {
+  cursor: progress;
+  &.dragover {
+    background-color: blue;
+
+  }
+}
